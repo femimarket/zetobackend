@@ -1,0 +1,30 @@
+{
+  "name": "zeto-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "r": "ts-node src/main.ts",
+    "init": "ts-node src/init.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.1",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "ethers": "^6.13.2",
+    "express": "^4.19.2",
+    "maci-crypto": "1.1.1",
+    "snarkjs": "^0.7.3",
+    "yup": "^1.4.0"
+  }
+}
